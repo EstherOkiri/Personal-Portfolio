@@ -1,94 +1,62 @@
-.index-body{
-    background-color: rgb(85, 83, 83);
+*{
+    margin: 0;
 }
-.index-body h2{
-    font-size: 60px;
-    text-align: center;
-    color: white;
+body{
+    background-color: rgb(218, 181, 218);
 }
-/*Navigation*/
-.navigation{
+.main-header{
     display: flex;
-    width: 100%;
-    height: 50px;
+    justify-content: space-between;
+    height: 30px;
+
+}
+.main-header img{
+    width: 30px;
+}
+/*Navigation bar*/
+.main-header .nav-bar{
+    display: flex;
+    gap: 10px;
     align-items: center;
-    justify-content: left;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
-.navigation img{
-    height: 50px;
-    margin-right: 10px;
+.main-header .nav-bar:hover{
+    color: rgb(80, 75, 75);
 }
-.navigation a{
-    margin-right: 10px;
-    color: rgb(245, 238, 238);
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+.main-header .nav-bar a{
     text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-weight: 1000;
 }
+/*Social Media Links*/
+.social-links{
+    padding-right: 10px;
+    display: flex;
+    gap: 10px;
+}
+.social-links:hover{
+    color: aqua;
+    cursor: pointer;
+}
+/*Hero Section*/
 .main-content{
-    text-align: center;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: #ffffff;
-}
-.main-content h1{
-    font-size: 120px;
-}
-.main-content h2{
-    font-size: 60px;
+    max-width: 2000px;
+    display: flex;
+    gap: 250px;
+    justify-content: center;
+    align-items: center;
+    padding-top: 64px;
 }
 .main-content p{
-    font-size: 30px;
+    font-family: Cambria;
+    font-size: 35px;
 }
-.main-paragraph{
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 30px;
-    font-weight: 20;
-    text-align: center;
-    color: #ffffff;
+.main-content h1{
+    font-family: Impact;
+    font-size: 50px;
 }
-.header-skills{
-    border-top: 1px solid #7F007F;
-    margin-top: 100px;
+.main-content img{
+    border-radius: 300px;
+    max-height: 300px;
 }
-.skills-list{
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: #ffffff;
-    font-size: 30px;
-}
-/*Footer*/
-.main-footer{
-    align-items: center;
-}
-.socials{
-    display: flex;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    align-items: center;
-}
-.socials a{
-    text-decoration: none;
-    color: #ffffff;
-}
-.socials img{
-    width: 20%;
-}
-.main-footer h4{
-    font-size: 30px;
-    text-align: center;
-    color: #ffffff;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    border-top: solid #7F007F 1px;
-}
-/*Contact Me Form*/
-form{
-    width: 900px;
-    font-family: Arial, Helvetica, sans-serif;
-    color: #ffffff;
-    font-size: 20px;
-}
-textarea{
-    width: 100%;
-    height: 50px;
-}
-button{
-    background-color: rgba(0, 128, 0, 0.493);
-}
-
