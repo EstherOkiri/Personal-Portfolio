@@ -8,43 +8,49 @@
     <link rel="stylesheet" href="./css/main.css">
     <title>About Me</title>
 </head>
-<body class="index-body">
-    <nav class="navigation">
-        <!--for logo-->
+<body>
+    <div class="main-header">
+        <!--logo div-->
         <div>
-            <img src="./images/title-icon.png" alt="">
+            <img src="./images/title-icon.png" alt="logo">
         </div>
-        <a href="./index.html">HOME</a>
-        <a href="./about-me.html">ABOUT ME</a>
-        <a href="./contact.html">CONTACT</a>
-    </nav>
-    <h2>Introduction</h2>
-    <p class="main-paragraph">I am a beginner in web development. I have a background education in Business IT. My work experience has been<br> in hardware and 
-    software troubleshooting. I have in the recent past developed an interest and passion in web development. I look foward to what the 30-Day
-    Web challenge has in store. I am sure I will learn alot.</p>
-    <div>
-        <h2 class="header-skills">Skills & Interests</h2>
-        <ul class="skills-list">
-            <li>HTML & CSS</li>
-            <li>DATA VISUALIZATION</li>
-            <li>SQL PROGRAMMING</li>
-        </ul>
+        <!--Navigation Bar-->
+        <nav class="nav-bar">
 
-    </div> 
-     <!--Footer-->
-     <footer class="main-footer">
-
-        <h4>Socials</h4>
-        <div class="socials">
-            <div class="social-github">
-                <img src="./images/footer-github.png" alt="github">
-                <a href="https://github.com/dashboard">Github</a>
-            </div> 
-            <div class="social-linkedin">
-                <img src="./images/footer-linkedin.png" alt="linkedin">
-                <a href="https://www.linkedin.com/in/esther-okiri-7887b5258/">Linkedin</a>
-            </div>        
+                <a href="index.html"> Home</a>
+                <a href="about-me.html">About Me</a>
+                <a href="#">Portfolio</a>
+        </nav>
+        <!--Social Media Links-->
+        <div class="social-links">
+            <a href="https://github.com/EstherOkiri"><img src="./images/footer-github.png" alt="github"></a>
+            <a href="https://www.linkedin.com/in/esther-okiri-7887b5258/"><img src="./images/footer-linkedin.png" alt="linkedin"></a>
+            <a href="https://www.instagram.com/"><img src="./images/ig-logo.png" alt="instagram"></a>
         </div>
-    </footer>  
+    </div>
+    <!--main content-->
+    <div class="about-me-content">
+        <div>
+            <img src="./images/about-me.jpg" alt="Prof">
+        </div>
+        <div class="about-me-p">
+            <p>I am a beginner in web development. I have a background education in Business IT. My work experience has been in hardware and 
+            software troubleshooting. I have in the recent past developed an interest and passion in web development. I look foward to what the 30-Day
+            Web challenge has in store. I am sure I will learn alot.</p>
+        </div>
+
+   </div>
+   <h2>Skills & Interests</h2>
+   <div class="about-me-skills">
+    <ul>
+        <li>HTML & CSS</li>
+        <li>DATA VISUALIZATION</li>
+        <li>SQL PROGRAMMING</li>
+    </ul>
+   </div>
+   <div class="contact-button">
+    <a href="contact.html"><button>CONTACT ME</button></a>
+   </div>
+    
 </body>
 </html>

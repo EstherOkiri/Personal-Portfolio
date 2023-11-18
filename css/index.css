@@ -2,7 +2,7 @@
     margin: 0;
 }
 body{
-    background-color: rgb(218, 181, 218);
+    background-color: rgba(218, 181, 218, 0.684);
 }
 .main-header{
     display: flex;
@@ -16,12 +16,9 @@ body{
 /*Navigation bar*/
 .main-header .nav-bar{
     display: flex;
-    gap: 10px;
+    gap: 20px;
     align-items: center;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-}
-.main-header .nav-bar:hover{
-    color: rgb(80, 75, 75);
 }
 .main-header .nav-bar a{
     text-decoration: none;
@@ -29,28 +26,35 @@ body{
     font-size: 20px;
     font-weight: 1000;
 }
+.main-header .nav-bar a:hover{
+   color: #7f007f79;
+}
 /*Social Media Links*/
 .social-links{
     padding-right: 10px;
     display: flex;
-    gap: 10px;
+    gap: 20px;
 }
-.social-links:hover{
-    color: aqua;
+.social-links img{
     cursor: pointer;
 }
+.social-links a img:hover{
+    opacity:0.3;
+}
+
 /*Hero Section*/
 .main-content{
     max-width: 2000px;
     display: flex;
-    gap: 250px;
+    gap: 50px;
     justify-content: center;
     align-items: center;
-    padding-top: 64px;
+    padding-top: 96px;
+    padding-left: 64px;
 }
 .main-content p{
     font-family: Cambria;
-    font-size: 35px;
+    font-size: 25px;
 }
 .main-content h1{
     font-family: Impact;
@@ -59,4 +63,110 @@ body{
 .main-content img{
     border-radius: 300px;
     max-height: 300px;
+}
+/*About Me Page*/
+.about-me-content{
+    padding: 80px 20px 80px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.about-me-content img{
+    height: fit-content;
+    width: auto;
+}
+.about-me-p{
+    padding-top: 72px;
+    text-align: left;
+    font-size: 25px;
+    width: 100%;
+    padding-bottom: 72px;
+}
+h2{
+    text-align: center;
+    font-family: Cambria, Cochin;
+}
+.about-me-skills{
+    font-family: cambria;
+}
+.about-me-skills ul{
+    padding-top: 32px;
+    display: flex;
+    list-style-type: none;
+    gap: 50px;
+    justify-content: center;
+}
+/*contact-button*/
+.contact-button{
+    padding-top: 32px;
+    text-align: center;
+}
+.contact-button a button{
+    border: none;
+    display: inline-block;
+    width: 120px;
+    height: 50px;
+    border-radius: 30px;
+    background-color: #7f007f79;
+    font-family: Cambria;
+    font-weight: bolder;
+    color: white;
+}
+.contact-button a button:hover{
+    background-color: #7f007fb9;
+    cursor: pointer;
+}
+/*Contact Me*/
+h1{
+    font-family: Cambria;
+    padding: 32px 0 32px 40px;
+    text-align: center;
+}
+.contact-me{
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+}
+.contact-me .my-contacts img{
+    width: 30px;
+}
+.contact-me .my-contacts p{
+    font-family: Cambria;
+    font-weight: bolder;
+}
+.contact-me .my-contacts .my-contacts1{
+    display: flex;
+    gap: 15px;
+}
+.contact-me .my-contacts .my-contacts2{
+    display: flex;
+    gap: 15px;
+    padding-top: 32px;
+    padding-bottom: 32px;
+
+}
+.contact-me .my-contacts .my-contacts3{
+    display: flex;
+    gap: 15px;
+}
+/*Form*/
+form input[type=text],input[type=email], textarea{
+    background-color:#fecbfeb1;
+    width: 100%;
+    border-radius: 10px;
+}
+form input[type=button]{
+    border: none;
+    display: inline-block;
+    width: 120px;
+    height: 50px;
+    border-radius: 30px;
+    background-color: #7f007f79;
+    font-family: Cambria;
+    font-weight: bolder;
+    color: white;
+}
+form input[type=button]:hover{
+    background-color: #7f007fb9;
+    cursor: pointer;
 }
