@@ -44,7 +44,6 @@ body{
 
 /*Hero Section*/
 .main-content{
-    max-width: 2000px;
     display: flex;
     gap: 50px;
     justify-content: center;
@@ -169,4 +168,13 @@ form input[type=button]{
 form input[type=button]:hover{
     background-color: #7f007fb9;
     cursor: pointer;
+}
+/*media query*/
+@media only screen and ( max-width: 600px ) {
+    .main-content{
+        display: grid;
+        grid-template-columns: 1fr;
+        width: 80%;
+    }
+    
 }
