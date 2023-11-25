@@ -176,5 +176,38 @@ form input[type=button]:hover{
         grid-template-columns: 1fr;
         width: 80%;
     }
+    .about-me-content{
+        display: grid;
+        grid-template-columns: 1fr;
+        padding: 0px 32px 0px 32px;
+    }
+    .about-me-skills{
+        padding-top: 0px;
+    }
+    .about-me-p{
+        font-size: 20px;
+        padding-top: 32px;
+    }
+    .about-me-content img{
+        padding: 32px 0px 0px 0px;
+    }
+    /*Contact me Form*/
+    .contact-me{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .contact-me .my-contacts{
+        padding-left: 20px;
+        order: 1;
+        align-items: center;
+    }
+    /*Form*/
+    form input[type=text],input[type=email], textarea{
+        width: 80%;
+        margin-left: 32px;
+    }
+    form input[type=button]{
+        margin-left: 32px;
+    }
     
 }
