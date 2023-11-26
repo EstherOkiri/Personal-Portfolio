@@ -87,6 +87,18 @@ a button:hover{
     margin: auto;
     padding-top: 32px;
 }
+
+/*Footer*/
+.footer{
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding-left: 180px;
+    background-color: #7f007f43;
+}
+.footer img{
+    width: 40px;
+}
 /*About Me Page*/
 .about-me-content{
     padding: 80px 20px 80px 20px;
@@ -237,5 +249,18 @@ form input[type=button]:hover{
         padding-left: 172px;
         padding-top: 24px;
     }
+    /*footer*/
+    .footer{
+        margin-top: 20px;
+        display: flex;
+        gap: 64px;
+        padding-left: 64px;
+        background-color: #7f007f43;
+    }
+    .footer img{
+        width: 20px;
+        
+    }
+
     
 }
