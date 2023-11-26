@@ -63,6 +63,25 @@ body{
     border-radius: 300px;
     max-height: 300px;
 }
+#hire-me{
+    padding-left: 248px;
+    padding-top: 16px;
+}
+button{
+    border: none;
+    display: inline-block;
+    width: 120px;
+    height: 50px;
+    border-radius: 30px;
+    background-color: #7f007f79;
+    font-family: Cambria;
+    font-weight: bolder;
+    color: white;
+}
+a button:hover{
+    background-color: #7f007fb9;
+    cursor: pointer;
+}
 /*About Me Page*/
 .about-me-content{
     padding: 80px 20px 80px 20px;
@@ -208,6 +227,10 @@ form input[type=button]:hover{
     }
     form input[type=button]{
         margin-left: 32px;
+    }
+    #hire-me{
+        padding-left: 172px;
+        padding-top: 24px;
     }
     
 }
