@@ -111,12 +111,14 @@ a button:hover{
 .about-me-content{
     padding: 80px 20px 80px 20px;
     display: flex;
+    gap: 20px;
     justify-content: center;
     align-items: center;
 }
 .about-me-content img{
     height: fit-content;
     width: auto;
+    border-radius: 100px;
 }
 .about-me-p{
     padding-top: 72px;
@@ -266,6 +268,11 @@ form input[type=button]:hover{
     }
     .about-me-content img{
         padding: 32px 0px 0px 0px;
+    }
+    .about-me-content img{
+        margin-top: 40px;
+        width: 90%;
+        border-radius: 10px;
     }
     /*Contact me Form*/
     .contact-me{
