@@ -286,6 +286,9 @@ form input[type=button]:hover{
     .main-header .nav-bar{
         display: none;
     }
+    .social-links img{
+        padding-top: 16px;
+    }
     .about-me-content{
         display: grid;
         grid-template-columns: 1fr;
