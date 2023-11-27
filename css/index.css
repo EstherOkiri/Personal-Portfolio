@@ -10,8 +10,7 @@ body{
     display: flex;
     height: 50px;
     justify-content: space-between;
-    background-color: white;
-    
+    background-color: #7f007f6d;   
 }
 .main-header img{
     width: 40px;
@@ -252,7 +251,7 @@ form input[type=button]:hover{
         width: 50px;
         height: 50px;
         background-image: url(/images/icons8-menu-30.png),url(/images/close-icon.png);
-        background-size: cover;
+        background-size: 20px,20px;
         background-repeat: no-repeat;
         background-position: center, center left 50px;
     }
@@ -272,6 +271,12 @@ form input[type=button]:hover{
         text-decoration: none;
         font-size: 40px;
         color: white;
+    }
+    .main-header{
+        align-items: center;
+    }
+    .main-header img{
+        width: 20px;
     }
     .main-content{
         display: grid;
