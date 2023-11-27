@@ -97,16 +97,43 @@ a button:hover{
 }
 
 /*Footer*/
-.footer{
-    margin-top: 20px;
+.footer-main{
+    margin-bottom: 0px;
+    padding-top: 16px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    padding-left: 180px;
-    background-color: #7f007f43;
+    background-color: #7f007f6d;
 }
-.footer img{
-    width: 40px;
+.footer-main img{
+    width: 20px;
+    height: 20px;
 }
+.footer-nav{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+.footer-nav a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-weight: 1000;
+}
+.footer-nav a:hover{
+    color: #7f007f79;
+}
+.footer-sm{
+    display: flex;
+    gap: 10px;
+    justify-content: flex-end;
+    padding-right: 20px;
+}
+.copyright{
+    width: 100%;
+    text-align: center;
+    background-color: #7f007f6d;
+}
+
 /*About Me Page*/
 .about-me-content{
     padding: 80px 20px 80px 20px;
@@ -297,16 +324,13 @@ form input[type=button]:hover{
         padding-top: 24px;
     }
     /*footer*/
-    .footer{
-        margin-top: 20px;
+    .footer-nav{
         display: flex;
-        gap: 64px;
-        padding-left: 64px;
-        background-color: #7f007f43;
+        gap: 10px;
+        justify-content: center;
     }
-    .footer img{
-        width: 20px;
-        
+    .footer-nav a{
+        font-size: 10px;
     }
 
     
