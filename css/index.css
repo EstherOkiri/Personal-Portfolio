@@ -1,5 +1,7 @@
 *{
     margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 body{
     background-color: rgba(218, 181, 218, 0.453);
@@ -193,11 +195,11 @@ h1{
     padding: 32px 0 32px 40px;
     text-align: center;
 }
-.contact-me{
-    display: flex;
-    justify-content: center;
-    gap: 100px;
+
+.contact-me {
+    
 }
+
 .contact-me .my-contacts img{
     width: 30px;
 }
@@ -206,11 +208,14 @@ h1{
     font-weight: bolder;
 }
 .contact-me .my-contacts .my-contacts1{
+    align-items: center;
+    justify-content: center;
     display: flex;
     gap: 15px;
 }
 .contact-me .my-contacts .my-contacts2{
     display: flex;
+    justify-content: center;
     gap: 15px;
     padding-top: 32px;
     padding-bottom: 32px;
@@ -219,8 +224,23 @@ h1{
 .contact-me .my-contacts .my-contacts3{
     display: flex;
     gap: 15px;
+    justify-content: center;
 }
 /*Form*/
+.contact-div-form {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact-form {
+    display: flex;
+    width: 50%;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
 form input[type=text],input[type=email], textarea{
     background-color:#fecbfeb1;
     width: 100%;
@@ -311,25 +331,24 @@ form input[type=button]:hover{
     }
     /*Contact me Form*/
     .contact-me{
-        display: grid;
-        grid-template-columns: 1fr;
+
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
     }
     .contact-me .my-contacts{
-        padding-left: 20px;
-        order: 1;
-        align-items: center;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
     }
     /*Form*/
     form input[type=text],input[type=email], textarea{
-        width: 80%;
-        margin-left: 32px;
     }
     form input[type=button]{
-        margin-left: 32px;
     }
     #hire-me{
-        padding-left: 172px;
-        padding-top: 24px;
+
     }
     /*footer*/
     .footer-nav{
